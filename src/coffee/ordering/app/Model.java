@@ -13,7 +13,7 @@ public class Model {
     
     String phone,type,payment;
     boolean wc,c,n,deliver;
-    int quantity,amount;
+    int quantity,amount,A;
 
     public Model(String phone, String type, int quantity, boolean wc, boolean c, boolean n, int amount,String payment, boolean deliver) {
         this.phone = phone;
